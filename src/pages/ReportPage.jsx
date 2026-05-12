@@ -137,7 +137,7 @@ const ReportPage = () => {
 
     return (
         <Container>
-            <Back to="/write-ups">← Back to reports</Back>
+            <Back to="/writeups">← Back to reports</Back>
 
             <ReactMarkdown remarkPlugins={[remarkGfm]}>
                 {report.content}

@@ -1,5 +1,4 @@
 import React from 'react';
-import Dither from '@/components/Dither';
 import styled from "styled-components";
 import {reports} from "@/content/reports/reports.js";
 import { Link } from 'react-router-dom';
@@ -95,19 +94,6 @@ const CardText = styled.p`
 
 const WriteUps = () => {
     return (
-    // <div style={{ width: '100%', height: '800px', position: 'relative', zIndex: 0 }}>
-    //     <Dither
-    //         waveColor={[0.5,0.5,0.5]}
-    //         disableAnimation={false}
-    //         enableMouseInteraction
-    //         mouseRadius={0.3}
-    //         colorNum={4}
-    //         waveAmplitude={0.3}
-    //         waveFrequency={3}
-    //         waveSpeed={0.05}
-    //     >
-    //     </Dither>
-    // </div>
     <WriteUpsContainer>
         <HomeLink to={"/"} >Home</HomeLink>
         <Title>CTF Write-ups</Title>

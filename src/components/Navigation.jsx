@@ -102,7 +102,7 @@ const Navigation = () => {
             <Navbar>
                 <StyledScrollLink to="projects">Projects</StyledScrollLink>
                 <StyledScrollLink to="contact">Contact</StyledScrollLink>
-                <StyledRouterLink to="write-ups">Write-ups</StyledRouterLink>
+                <StyledRouterLink to="writeups">Write-ups</StyledRouterLink>
             </Navbar>
         </NavigationContainer>
     )

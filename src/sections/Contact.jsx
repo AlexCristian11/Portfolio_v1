@@ -46,11 +46,6 @@ const ContactCard = styled.div`
     a:hover {
         opacity: 0.8;
     }
-    
-    .icon {
-        font-size: 1.6rem;
-        margin-top: 8px;
-    }
 `
 
 const Title = styled.h3`
